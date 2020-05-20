@@ -15,23 +15,23 @@ class MountainCarEnv(gym.Env):
     """
     Description:
          A car which is the agent is started at the bottom of a valley for any given state te agent can choose to
-         move left or right or donnt move at all
+         move left or right or do not move at all
         
     Source:
          The environment appeared first in Andrew Moore's PhD Thesis (1990).
     
     Observation: 
          Type: Box(2)
-         Num	Observation               Min            Max
+         Num	 Observation               Min            Max
          0	    Car Position             -1.2            0.6
          1	    Car Velocity             -0.07           0.07
     
     Actions:
          Type: Discrete(3)
-         Num	Action
+         Num	 Action
          0	    Accelerate to the Left
          1	    Dont accelerate
-         2      Accelerate to the Right
+         2       Accelerate to the Right
         
          Note: This does not affect the amount of velocity affected by the gravitational pull acting on the car
         
